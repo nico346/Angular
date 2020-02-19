@@ -1,0 +1,71 @@
+body{
+    position: absolute;
+    background: url(src/img/family.png) ;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+    .myfamily{
+    width: 174px;
+    height: 48px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 47px;
+    color: #4A5248;
+    }
+    .btnEntrar{
+    position: absolute; right: 0;
+    width: 100px;
+    height: 45px;
+    background: rgba(147, 224, 89, 0.9);
+    border: 1px solid #93E059;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 800px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    }
+    .btnCadastro{
+    float: right;
+    width: 390px;
+    height: 60px;
+    background: rgba(147, 224, 89, 0.9);
+    border: 1px solid #93E059;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 150px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+     }
+    .meio{
+    position: absolute;
+    text-align: center;
+    left:20%;
+    top:20%;
+    width: 869px;
+    height: 86px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color: #000000;
+    }
+    .inputEmail{
+    width: 450px;
+    height: 60px;
+    margin-top: 150px;
+    }
+    #paragrafo{
+        font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+    }

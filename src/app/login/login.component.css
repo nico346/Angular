@@ -1,0 +1,40 @@
+body{
+    background: url(src/img/family.png);
+    background-size:cover;
+}
+h3{
+    color: #93E059;
+}
+h5{
+    color: #93E059;
+}
+.card{
+width: 571px;
+height: 625px;
+background: rgba(74, 82, 72, 0.8);
+border-radius: 14px;
+
+}
+.myfamily{
+position: absolute;
+color: #93E059;
+width: 207px;
+height: 57px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 56px;
+}
+.btnCadastrar{
+    position: absolute;
+    width: 254px;
+    height: 61px;
+    background: rgba(147, 224, 89, 0.9);
+    border: 1px solid #93E059;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+}
