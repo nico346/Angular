@@ -9,45 +9,31 @@
     <title>Login</title>
 </head>
 <body>
-    <section class="">
+    <section class="container col-12">
         <div class="card col-12 mx-auto">
                 <br>
-                  <h3 style="text-align: center; font-family: Quicksand; font-weight: bold;">My Family</h3>
-                  <h5 style="text-align: center; font-family: Quicksand; font-weight: bold;">Entrar</h5>
+                  <h3 >My Family</h3>
+                  <h5>Entrar</h5>
                   <div class="card-body">
                       <form class="form-row form">
-                          <div class="form-group col-md-5">
-                            <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nome da família">
+                          <div class="form-group col-md-10">
+                            <input type="email" class="form-control" required placeholder="E-mail">
                           </div>
-                          <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Estado">
+                      </form>
+                      <form class="form-row form">
+                          <div class="form-group col-md-10">
+                              <input type="password" class="form-control" required placeholder="Senha">
                             </div>
-                            <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Cidade">
-                            </div>
-                            <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="E-mail">
-                            </div>
-                          </form>
-                       <form class="form-row form">
-                            <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Senha">
-                            </div>
-                            <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Nome">
-                            </div>
-                          <div class="form-group col-md-5">
-                            <input type="password" class="form-control"  placeholder="Idade">
+                      </form>
+
+                           <div class="form-check ">
+                            <button class="nav-link btnLogin ">Login</button>
+                            <input type="checkbox">
+                            <label style="color:white;"> Lembre-se de mim</label>
+                            <a class="ajuda" href="/">Precisa de ajuda?</a>
                           </div>
-                          <div class="form-group col-md-5">
-                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Sexo">
-                            </div>
-                          </form>
-                          <div class="form-check box">
-                            <mat-checkbox>Aceito os termos de privacidade</mat-checkbox>
-                            <button class="nav-link btnCadastrar ">Login</button>
-                          </div>
-                          
+
+                          <a class="nova" href="/cadastro">Família nova? <strong>Cadastre-se agora</strong></a>
                   </div>
                 </div>
 
